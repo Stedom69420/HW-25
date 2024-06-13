@@ -1,0 +1,27 @@
+.container{
+    width: 100%;
+    padding: 30px;
+    margin: 0 auto;
+    display: flex;
+}
+.box{
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+.box-1{
+    top: 50px;
+    left: 50px;
+    background-color: lightblue;
+}
+.box-2{
+    top: 100px;
+    left: 0px;
+    background-color: greenyellow;
+    z-index: 1;
+}
+.box-3{
+    top: 150px;
+    left: -50px;
+    background-color: yellow;
+}
